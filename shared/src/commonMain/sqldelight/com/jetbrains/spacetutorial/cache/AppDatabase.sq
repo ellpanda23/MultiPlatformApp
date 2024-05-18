@@ -19,3 +19,6 @@ VALUES(?, ?, ?, ?, ?, ?, ?, ?);
 removeAllLaunches:
 DELETE FROM Launch;
 
+selectAllLaunchesInfo:
+SELECT Launch.*
+FROM Launch;
