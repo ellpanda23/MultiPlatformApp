@@ -5,7 +5,6 @@ plugins {
     alias(libs.plugins.kotlinxSerialization)
     alias(libs.plugins.sqldelight)
 }
-}
 
 kotlin {
     androidTarget {
@@ -57,5 +56,13 @@ android {
     }
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
+    }
+}
+
+sqldelight {
+    databases {
+        create("AppDatabase") {
+            packageName.set("com.jetbrains.spacetutorial.cache")
+        }
     }
 }
