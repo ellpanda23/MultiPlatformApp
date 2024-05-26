@@ -1,4 +1,5 @@
-package com.jetbrains.spacetutorial.theme
+package com.multiplataforma_kotlin.theme
+
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

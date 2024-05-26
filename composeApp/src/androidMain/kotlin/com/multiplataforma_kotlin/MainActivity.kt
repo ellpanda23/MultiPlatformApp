@@ -1,4 +1,4 @@
-package com.jetbrains.spacetutorial
+package com.multiplataforma_kotlin
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
